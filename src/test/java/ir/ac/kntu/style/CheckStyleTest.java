@@ -1,4 +1,4 @@
-package kntu.style;
+package ir.ac.kntu.style;
 
 import com.puppycrawl.tools.checkstyle.Checker;
 import com.puppycrawl.tools.checkstyle.ConfigurationLoader;
@@ -100,9 +100,9 @@ public class CheckStyleTest {
         } catch (CheckstyleException ex) {
             Logger.getLogger(CheckStyleTest.class.getName()).log(Level.SEVERE, null, ex);
         }
-        System.out.println("Found " + errors + " check style errors.");
+        System.out.println("Found " + errors + " check ir.ac.kntu.style errors.");
         System.out.println(baos.toString());
-        assertEquals(0, errors, errors + " check style errors " +
+        assertEquals(0, errors, errors + " check ir.ac.kntu.style errors " +
                 "found. " + baos.toString());
         checker.destroy();
     }

@@ -1,4 +1,4 @@
-package kntu;
+package ir.ac.kntu;
 
 /**
  * @author yourname
