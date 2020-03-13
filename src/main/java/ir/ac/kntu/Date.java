@@ -4,12 +4,13 @@ public class Date {
     private int year;
     private int month;
     private int day;
+    Integer num;
 
     public Date(int year, int month, int day) {
         checkAndSetDate(year, month, day);
     }
 
-    public Date(Date date) {
+    public Date(Date date) {//take OBJECT DATE and import data
         this.year = date.year;
         this.month = date.month;
         this.day = date.day;
